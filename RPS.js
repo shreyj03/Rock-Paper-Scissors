@@ -1,6 +1,16 @@
 let score = JSON.parse(localStorage.getItem('score')) || {wins:0, losses:0, ties:0};
 
-updateScoreElement();     
+updateScoreElement();
+
+document.body.addEventListener('keydown', (event) => {
+  if (event.key === 'r') {
+    playGame('Rock');
+  } else if (event.key === 'p') {
+    playGame('Paper');
+  } else if (event.key === 's') {
+    playGame('Scissors');
+  }
+});
 
 
 function playGame(playerMove) {
