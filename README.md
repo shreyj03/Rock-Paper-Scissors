@@ -7,6 +7,7 @@ This is a simple Rock Paper Scissors game implemented in HTML, CSS, and JavaScri
 - Play Rock Paper Scissors against the computer.
 - Keeps track of wins, losses, and ties.
 - Score is saved in the browser's local storage.
+- You can press 'r' for rock, 'p' for paper and 's' for scissors.
 - Simple and intuitive UI.
 
 ## Live Demo
